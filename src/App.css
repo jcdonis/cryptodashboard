@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.navbar {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+.nav-container ul {
+    height: 100%;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.logo a {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh
+}
